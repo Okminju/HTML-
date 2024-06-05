@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<!--저장할 때는 항상 확장자명으로 .html-->
+		
+    <!--한글이 깨지지 않으려면 입력해야하는 실행문-->
+		<meta charset= "utf-8">
+		
+    <!--페이지 제목/ 제목표시줄에 표시됨-->
+		<title>연습용 페이지</title>
+
+    <!--head 안의 내용은 표면상으로는 보이지 않습니다-->
+  </head>
+
+  
+	<!--페이지 배경색의 속성표시 = "속성값"-->
+	<body bgcolor="#005000">
+	
+  <!--font 색상 RGB코드로 입력-->
+	<font color="#98fb98">
+	    2024년 6월 25일 
+	
+  <!--수평선 만들기 hr태그 사용-->
+	<hr size ="10" width="100%" align="left" color="black" noshade><p>
+	
+      <p>오늘 했던 내용을 복습합니다. </font></p>
+	
+  
+  <font color = "#ffffff">
+	    파일을 저장할 때는 .html 확장자명을 필수 사용<p>
+	    한글이 깨지지 않게 하기 위해 < meta charset= utf-8 > 를 입력</p><p>
+	
+	    </p>소문자를 기준으로 입력, 강조할 때 대문자를 사용.
+	    영어를 기본으로 할 것<p>
+	
+	<!--수평선 만들기 hr태그 사용-->
+	<hr width="70%" align="left" color="black" noshade><p>
+	
+	
+	    </p>배경에 색을 추가할 때는 body bgcolor를 사용하여 코드값 입력<br>
+	    배경에 그림을 추가할 때는 body background를 사용하여 .png 파일명 입력<p>
+	
+	    </p>아래로 내려쓰기를 할 때는 br 태그 입력<br>
+	    아래로 내려쓰고 한 줄 띄울 때는 p 태그 입력<p>
+	
+	<!--수평선 만들기 hr태그 사용-->
+	<hr width="70%" align="left" color="black" noshade><p>
+	
+	    </p>수평선을 만들 때는 hr 태그를 사용<br>
+	    두께는 size = "값"을 입력<br>
+	    길이는 width = "값%"혹은 "값px"를 입력<br>
+	    정렬은 align = "option"을 입력<br>
+	    그림자 없을 때 noshade 입력<br>
+	    주석을 만들 때는 < !--를 사용하고 -->로 닫아줍니다. </font>
+	
+  <!--수평선 만들기 hr태그 사용-->
+	<hr size ="10" width="100%" align="left" color="black" noshade><p>
+	
+	</body>
+</html>
