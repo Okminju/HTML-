@@ -1,0 +1,75 @@
+<html>
+	<head> 
+		<meta charset = "utf-8">
+		<title> 오늘의 복습 </title>
+	</head>
+	<!-- 백그라운드 컬러 = -->
+	<body bgcolor = "#4682B4">
+		<!--글자크기 4, 우로 정렬-->
+		<h4 align = "right"> 2024년 06월 12일 </h4><p>
+		<!--수평선 입력, 사이즈 1, 넓이 100% 색상 검은색, 그림자없음-->
+		<hr size = "1" width = "100%" color = "black" noshade>
+		<!--Hnum 태그 사용하기 제일 큰 사이즈 중간정렬-->
+		<H1 align = "center"> 오늘의 복습 </align><p>
+		
+		
+		<!--marquee 태그 중간 정렬, 높이 = 20 , 움직임 = 왕복, 무한반복 + 폰트 사이즈, 색상, 글씨체 변경-->
+		<marquee align = "Middle" height = "20" behavior = "alternate" scrolldelay = 10
+			scrollamount = 30 loop = -1 bgcolor = #FFFFFF><font size = 3 color = "red" face = "굴림"> 
+			복습을 철저히 합시다!!! </font>
+		</marquee>
+		
+		<font size = 5 color = white><tt>
+		<div align = "left"> 
+		div 태그를 이용해서 행정렬을 해봅니다. <br>
+		왼쪽 정렬을 통하여 문자들을 왼쪽에만<br>
+		나타날 수 있게 할 수 있습니다? <br>
+		안되는 것 같은데요? <br>
+		오른쪽 정렬도 해보겠습니다? <br> </div>
+		
+		<div align = "right">
+		이번에는 오른쪽 정렬입니다. <br>
+		이번시도에 된다면 위의 오류는 <br>
+		제가 br태그를 사용하지 않았<br>
+		기 때문일 것입니다? <br> </font> </div>
+		
+		<font size = 5 color = "black">
+		<i> 이탤릭체로 내용을 적어봅니다. 이탤릭체의 맞춤법은 italic입니다.</i> <p>
+		<b><big>항상 사용했던 태그를 닫는 연습을 합시다. 항상 잊어버리는 경향이 있습니다.</b></big><p>
+		
+		오늘의 어려웠던 부분 <p> </tt>
+		
+		
+		<div align = "left">
+		<OL>
+			<li> 바로 리스트 만들기
+				<ol type = "i">
+					<li> 리스트를 엄청나게 만들기	
+						<ol type = "a">
+							<li> 리스트가 어디까지
+							<li> 인지 기억
+							<li> 하기
+						</ol>
+					<li> 리스트를 기깔나게 만들기
+						<ol type = "a" start = "4">
+							<li> 여기에
+							<li> 자꾸만
+							<li> 리스트를 세분화
+						</ol>
+					<li>하고 싶을 수 도 있는 것
+				</ol>
+			<li> 혹은 아닐 수도 있다.
+			<li> 과연 어떤 모양이 되었을까요? 
+				<ol type = "i" start = "4"> 
+					<li> 머릿속으로 
+					<li> 그려보는 게
+					<li> 안되잖아요
+					<li> 너무 억울해
+				</ol>
+			<li> 그래도 힘내세용
+		</ol>			
+		
+		</div>
+	</body>
+</html>	
+	
